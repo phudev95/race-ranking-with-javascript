@@ -1,0 +1,57 @@
+h1.title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.app {
+  margin: 20px auto;
+  width: 600px;
+}
+
+.race-ranking {
+  display: flex;
+}
+
+.bullets {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bullets > span {
+  height: 50px;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #3f51b5;
+}
+
+.user-list {
+  width: 90%;
+}
+
+.user-list img {
+  margin-right: 10px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+.user-list label {
+  width: 150px;
+}
+
+.user-information {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.user-information meter {
+  width: 150px;
+}
+
+.user-information .km {
+  margin-left: 10px;
+}
