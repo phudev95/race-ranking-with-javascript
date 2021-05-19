@@ -8,7 +8,7 @@ import { fakeUsers } from './fake-users';
 export function raceRankingFactory(totalUsers) {
   const users = JSON.parse(JSON.stringify(fakeUsers)).slice(0, totalUsers);
 
-  return (scenario = SCENARIO.SCENARIO_1) => {
+  return (scenario) => {
     if (scenario === SCENARIO.SCENARIO_1) {
       const randomUserIndex = Math.floor(Math.random() * 2);
       const temporaryValue = { ...users[randomUserIndex] };
